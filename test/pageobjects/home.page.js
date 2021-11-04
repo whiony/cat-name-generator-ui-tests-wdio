@@ -8,11 +8,11 @@ class HomePage {
   }
 
   get maleNameButton() {
-    return $('.name=male name').then((p) => p.parentElement());
+    return $('.name=male name').parentElement();
   }
 
   get femaleNameButton() {
-    return $('.name=female name').then((p) => p.parentElement());
+    return $('.name=female name').parentElement();
   }
 
   get searchField() {
