@@ -1,0 +1,12 @@
+image: node:10.5.0
+
+stages:
+  - test
+
+before_script:
+  - npm install
+
+run-api-test:
+  stage: test
+  script:
+    - npm run test
